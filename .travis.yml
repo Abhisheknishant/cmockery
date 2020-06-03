@@ -30,11 +30,6 @@ matrix:
     - os: linux
       arch: arm64
       compiler: clang
-    - os: osx
-
-  allow_failures:
-    - arch: arm64
-    - os: osx
 
   fast_finish: true
 
